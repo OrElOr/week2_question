@@ -58,7 +58,7 @@ class TestPriorityQueue(unittest.TestCase):
 
     self.assertEqual(pq.pop(), "Task 2")
     self.assertEqual(pq.pop(), "Task 1")
-    self.assertEqual(pq.pop(), "Task 1")
+    self.assertEqual(pq.pop(), "Task 3")
     self.assertIsNone(pq.pop())
 
 
